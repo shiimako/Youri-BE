@@ -1,0 +1,67 @@
+[
+  {
+    "category_id": "CAT-101",
+    "name": "Indonesian",
+    "usage_count": 77
+  },
+  {
+    "category_id": "CAT-102",
+    "name": "Western",
+    "usage_count": 5
+  },
+  {
+    "category_id": "CAT-103",
+    "name": "Asian",
+    "usage_count": 7
+  },
+  {
+    "category_id": "CAT-104",
+    "name": "Middle Eastern",
+    "usage_count": 0
+  },
+  {
+    "category_id": "CAT-105",
+    "name": "Main Course",
+    "usage_count": 126
+  },
+  {
+    "category_id": "CAT-106",
+    "name": "Appetizer",
+    "usage_count": 1
+  },
+  {
+    "category_id": "CAT-107",
+    "name": "Dessert",
+    "usage_count": 0
+  },
+  {
+    "category_id": "CAT-108",
+    "name": "Snack",
+    "usage_count": 5
+  },
+  {
+    "category_id": "CAT-109",
+    "name": "Beverage",
+    "usage_count": 24
+  },
+  {
+    "category_id": "CAT-110",
+    "name": "Goreng",
+    "usage_count": 54
+  },
+  {
+    "category_id": "CAT-111",
+    "name": "Rebus & Kuah",
+    "usage_count": 16
+  },
+  {
+    "category_id": "CAT-112",
+    "name": "Bakar & Panggang",
+    "usage_count": 10
+  },
+  {
+    "category_id": "CAT-113",
+    "name": "Tumis",
+    "usage_count": 59
+  }
+]

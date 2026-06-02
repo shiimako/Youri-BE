@@ -1,0 +1,9392 @@
+[
+  {
+    "ingredient_id": "ING-0001",
+    "clean_name": "tahu putih",
+    "display_name": "Tahu Putih",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0002",
+    "clean_name": "telor",
+    "display_name": "Telor",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0003",
+    "clean_name": "daun pisang",
+    "display_name": "Daun Pisang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.8,
+      0,
+      0.1,
+      0,
+      0,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0004",
+    "clean_name": "bawang merah",
+    "display_name": "Bawang Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0005",
+    "clean_name": "bawang putih",
+    "display_name": "Bawang Putih",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0006",
+    "clean_name": "ketumbar",
+    "display_name": "Ketumbar",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0007",
+    "clean_name": "cabe merah",
+    "display_name": "Cabe Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0008",
+    "clean_name": "kemiri",
+    "display_name": "Kemiri",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0.2,
+      0.3,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0009",
+    "clean_name": "merica",
+    "display_name": "Merica",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0010",
+    "clean_name": "garam",
+    "display_name": "Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0011",
+    "clean_name": "kecap asin",
+    "display_name": "Kecap Asin",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0.9,
+      0,
+      0.1,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0012",
+    "clean_name": "saus tiram",
+    "display_name": "Saus Tiram",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0013",
+    "clean_name": "kecap manis",
+    "display_name": "Kecap Manis",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.85,
+      0.3,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0014",
+    "clean_name": "bawang putih haluskan",
+    "display_name": "Bawang Putih Haluskan",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0015",
+    "clean_name": "terigu serbaguna",
+    "display_name": "Terigu Serbaguna",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.7,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0016",
+    "clean_name": "maizena",
+    "display_name": "Maizena",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0017",
+    "clean_name": "bubuk kaldu sapi",
+    "display_name": "Bubuk Kaldu Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0018",
+    "clean_name": "gravy",
+    "display_name": "Gravy",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0019",
+    "clean_name": "bawang bombay rajang",
+    "display_name": "Bawang Bombay Rajang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0020",
+    "clean_name": "terigu",
+    "display_name": "Terigu",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.7,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0021",
+    "clean_name": "air",
+    "display_name": "Air",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0022",
+    "clean_name": "saus teriyaki",
+    "display_name": "Saus Teriyaki",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.6,
+      0.4,
+      0.1,
+      0,
+      0.4,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0023",
+    "clean_name": "merica hitam gerus",
+    "display_name": "Merica Hitam Gerus",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0024",
+    "clean_name": "bubuk pala",
+    "display_name": "Bubuk Pala",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.2,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0025",
+    "clean_name": "olive oil",
+    "display_name": "Olive Oil",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0026",
+    "clean_name": "pelengkap",
+    "display_name": "Pelengkap",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0027",
+    "clean_name": "kentang goreng",
+    "display_name": "Kentang Goreng",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0028",
+    "clean_name": "letuce",
+    "display_name": "Letuce",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0029",
+    "clean_name": "wortel",
+    "display_name": "Wortel",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0030",
+    "clean_name": "scrumble egg",
+    "display_name": "Scrumble Egg",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0031",
+    "clean_name": "udang",
+    "display_name": "Udang",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0032",
+    "clean_name": "kentang dadu",
+    "display_name": "Kentang Dadu",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0033",
+    "clean_name": "lengkuas",
+    "display_name": "Lengkuas",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0034",
+    "clean_name": "bumbu",
+    "display_name": "Bumbu",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0035",
+    "clean_name": "cabe rawit merah",
+    "display_name": "Cabe Rawit Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0036",
+    "clean_name": "cabe keriting",
+    "display_name": "Cabe Keriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0037",
+    "clean_name": "terasi",
+    "display_name": "Terasi",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0,
+      0.7,
+      0.2,
+      0.2,
+      0.9,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0038",
+    "clean_name": "kunyit",
+    "display_name": "Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0039",
+    "clean_name": "garam gula merica bubuk",
+    "display_name": "Garam Gula Merica Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0040",
+    "clean_name": "beri air",
+    "display_name": "Beri Air",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0041",
+    "clean_name": "telur lalu dari kulit",
+    "display_name": "Telur Lalu Dari Kulit",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0042",
+    "clean_name": "teh celup",
+    "display_name": "Teh Celup",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.4,
+      0,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0043",
+    "clean_name": "gula merah sisir",
+    "display_name": "Gula Merah Sisir",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.9,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0044",
+    "clean_name": "gula",
+    "display_name": "Gula",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0045",
+    "clean_name": "segenggam kulit bawang merah",
+    "display_name": "Segenggam Kulit Bawang Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0046",
+    "clean_name": "daun salam",
+    "display_name": "Daun Salam",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0047",
+    "clean_name": "serai",
+    "display_name": "Serai",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0048",
+    "clean_name": "penyedap rasa",
+    "display_name": "Penyedap Rasa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0049",
+    "clean_name": "bumbu kuah tongseng",
+    "display_name": "Bumbu Kuah Tongseng",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0050",
+    "clean_name": "kunyit bakar",
+    "display_name": "Kunyit Bakar",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0051",
+    "clean_name": "jahe",
+    "display_name": "Jahe",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0052",
+    "clean_name": "cabai merah",
+    "display_name": "Cabai Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0053",
+    "clean_name": "daun jeruk purut",
+    "display_name": "Daun Jeruk Purut",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0054",
+    "clean_name": "laos di",
+    "display_name": "Laos Di",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0055",
+    "clean_name": "santan kara",
+    "display_name": "Santan Kara",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0056",
+    "clean_name": "air matang",
+    "display_name": "Air Matang",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0057",
+    "clean_name": "kengkeh",
+    "display_name": "Kengkeh",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.3,
+      0,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0058",
+    "clean_name": "kayu manis",
+    "display_name": "Kayu Manis",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.6,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0059",
+    "clean_name": "pala",
+    "display_name": "Pala",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.2,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0060",
+    "clean_name": "ketumbar bubuk",
+    "display_name": "Ketumbar Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0061",
+    "clean_name": "lada bubuk",
+    "display_name": "Lada Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0062",
+    "clean_name": "gula pasir",
+    "display_name": "Gula Pasir",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0063",
+    "clean_name": "daging kambing",
+    "display_name": "Daging Kambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0064",
+    "clean_name": "tomat hijau",
+    "display_name": "Tomat Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.6,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0065",
+    "clean_name": "helai kol",
+    "display_name": "Helai Kol",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0066",
+    "clean_name": "cabai rawit",
+    "display_name": "Cabai Rawit",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0067",
+    "clean_name": "minyak goreng",
+    "display_name": "Minyak Goreng",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0068",
+    "clean_name": "daun pepaya",
+    "display_name": "Daun Pepaya",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.8,
+      0,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0069",
+    "clean_name": "cup beras",
+    "display_name": "Cup Beras",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0070",
+    "clean_name": "bubuk kari",
+    "display_name": "Bubuk Kari",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0071",
+    "clean_name": "jintan",
+    "display_name": "Jintan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0072",
+    "clean_name": "adas",
+    "display_name": "Adas",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0073",
+    "clean_name": "kapulaga",
+    "display_name": "Kapulaga",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0074",
+    "clean_name": "cengkeh",
+    "display_name": "Cengkeh",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.3,
+      0,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0075",
+    "clean_name": "garam gula",
+    "display_name": "Garam Gula",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0076",
+    "clean_name": "minyak samin",
+    "display_name": "Minyak Samin",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0077",
+    "clean_name": "pokchoi",
+    "display_name": "Pokchoi",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0078",
+    "clean_name": "munjung daging sapi giling",
+    "display_name": "Munjung Daging Sapi Giling",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0079",
+    "clean_name": "bawang putih kasar",
+    "display_name": "Bawang Putih Kasar",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0080",
+    "clean_name": "bawang bombai tipis",
+    "display_name": "Bawang Bombai Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0081",
+    "clean_name": "daun bawang",
+    "display_name": "Daun Bawang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0082",
+    "clean_name": "sch saos tiram",
+    "display_name": "Sch Saos Tiram",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0083",
+    "clean_name": "lada",
+    "display_name": "Lada",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0084",
+    "clean_name": "wijen",
+    "display_name": "Wijen",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0085",
+    "clean_name": "bandeng",
+    "display_name": "Bandeng",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0086",
+    "clean_name": "tomat",
+    "display_name": "Tomat",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0087",
+    "clean_name": "daun jeruk",
+    "display_name": "Daun Jeruk",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0088",
+    "clean_name": "sereh",
+    "display_name": "Sereh",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0089",
+    "clean_name": "penyedap",
+    "display_name": "Penyedap",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0090",
+    "clean_name": "cabe rawit",
+    "display_name": "Cabe Rawit",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0091",
+    "clean_name": "g daging kambing",
+    "display_name": "G Daging Kambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0092",
+    "clean_name": "bumbu marinade",
+    "display_name": "Bumbu Marinade",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0093",
+    "clean_name": "daun jeruk optional",
+    "display_name": "Daun Jeruk Optional",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0094",
+    "clean_name": "bahan saus kecap",
+    "display_name": "Bahan Saus Kecap",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.5,
+      0.6,
+      0,
+      0.1,
+      0.5,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0095",
+    "clean_name": "tomat merah",
+    "display_name": "Tomat Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0096",
+    "clean_name": "lada garam",
+    "display_name": "Lada Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0097",
+    "clean_name": "kol",
+    "display_name": "Kol",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0098",
+    "clean_name": "jeruk nipis",
+    "display_name": "Jeruk Nipis",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0099",
+    "clean_name": "jagung manis",
+    "display_name": "Jagung Manis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.5,
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0100",
+    "clean_name": "tempe",
+    "display_name": "Tempe",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0101",
+    "clean_name": "merica bubuk",
+    "display_name": "Merica Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0102",
+    "clean_name": "royco",
+    "display_name": "Royco",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0103",
+    "clean_name": "sejempol kunyit",
+    "display_name": "Sejempol Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0104",
+    "clean_name": "pangsit ayam",
+    "display_name": "Pangsit Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0105",
+    "clean_name": "bahan kuah",
+    "display_name": "Bahan Kuah",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0106",
+    "clean_name": "minyak wijen",
+    "display_name": "Minyak Wijen",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.95
+    ]
+  },
+  {
+    "ingredient_id": "ING-0107",
+    "clean_name": "kecap ikan",
+    "display_name": "Kecap Ikan",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.1,
+      0.9,
+      0,
+      0.1,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0108",
+    "clean_name": "daun bawang tipis",
+    "display_name": "Daun Bawang Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0109",
+    "clean_name": "garam royco",
+    "display_name": "Garam Royco",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0110",
+    "clean_name": "sawi putih",
+    "display_name": "Sawi Putih",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0111",
+    "clean_name": "telur ayam",
+    "display_name": "Telur Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0112",
+    "clean_name": "cabe kriting",
+    "display_name": "Cabe Kriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0113",
+    "clean_name": "bawang bombay",
+    "display_name": "Bawang Bombay",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0114",
+    "clean_name": "kaldu jamur",
+    "display_name": "Kaldu Jamur",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0115",
+    "clean_name": "tofu",
+    "display_name": "Tofu",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0116",
+    "clean_name": "iga kambing",
+    "display_name": "Iga Kambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0117",
+    "clean_name": "santan kental",
+    "display_name": "Santan Kental",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0118",
+    "clean_name": "lengkuas memarkan",
+    "display_name": "Lengkuas Memarkan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0119",
+    "clean_name": "serai memarkan",
+    "display_name": "Serai Memarkan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0120",
+    "clean_name": "gula garam",
+    "display_name": "Gula Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0121",
+    "clean_name": "bawang merah sekitar",
+    "display_name": "Bawang Merah Sekitar",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0122",
+    "clean_name": "pala bubuk",
+    "display_name": "Pala Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.2,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0123",
+    "clean_name": "telur di ceplok",
+    "display_name": "Telur Di Ceplok",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0124",
+    "clean_name": "segenggam cabe",
+    "display_name": "Segenggam Cabe",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0125",
+    "clean_name": "bawang prey memperindah tampilan",
+    "display_name": "Bawang Prey Memperindah Tampilan",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0126",
+    "clean_name": "lada hitam",
+    "display_name": "Lada Hitam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0127",
+    "clean_name": "saos tiram",
+    "display_name": "Saos Tiram",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0128",
+    "clean_name": "kaki kambing",
+    "display_name": "Kaki Kambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0129",
+    "clean_name": "lobak panjang",
+    "display_name": "Lobak Panjang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.2,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0130",
+    "clean_name": "buncis ptong",
+    "display_name": "Buncis Ptong",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.15,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0131",
+    "clean_name": "salam koja",
+    "display_name": "Salam Koja",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0132",
+    "clean_name": "bawang daunpre",
+    "display_name": "Bawang Daunpre",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0133",
+    "clean_name": "gula garam lada",
+    "display_name": "Gula Garam Lada",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0134",
+    "clean_name": "daging sapi giling",
+    "display_name": "Daging Sapi Giling",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0135",
+    "clean_name": "telur",
+    "display_name": "Telur",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0136",
+    "clean_name": "udang tanpa kepala",
+    "display_name": "Udang Tanpa Kepala",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.2,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0137",
+    "clean_name": "air jeruk nipis",
+    "display_name": "Air Jeruk Nipis",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0138",
+    "clean_name": "tahu segitiga coklat",
+    "display_name": "Tahu Segitiga Coklat",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0139",
+    "clean_name": "daging ayam",
+    "display_name": "Daging Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0140",
+    "clean_name": "sagu",
+    "display_name": "Sagu",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0141",
+    "clean_name": "bawang merah goreng",
+    "display_name": "Bawang Merah Goreng",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0142",
+    "clean_name": "kaldu ayam bubuk",
+    "display_name": "Kaldu Ayam Bubuk",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0143",
+    "clean_name": "minyak menggoreng",
+    "display_name": "Minyak Menggoreng",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0144",
+    "clean_name": "labu",
+    "display_name": "Labu",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0145",
+    "clean_name": "bawang putin",
+    "display_name": "Bawang Putin",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0146",
+    "clean_name": "bawang merch",
+    "display_name": "Bawang Merch",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0147",
+    "clean_name": "tahu putih belah segitiga",
+    "display_name": "Tahu Putih Belah Segitiga",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0148",
+    "clean_name": "tauco",
+    "display_name": "Tauco",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0.2,
+      0.3,
+      0.85,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0149",
+    "clean_name": "bawang hijau",
+    "display_name": "Bawang Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0150",
+    "clean_name": "cabe ijo",
+    "display_name": "Cabe Ijo",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0151",
+    "clean_name": "lmbr daun salam",
+    "display_name": "Lmbr Daun Salam",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0152",
+    "clean_name": "gula garam penyedap rasa",
+    "display_name": "Gula Garam Penyedap Rasa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0153",
+    "clean_name": "ayam",
+    "display_name": "Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0154",
+    "clean_name": "cabai merah bisa kurang",
+    "display_name": "Cabai Merah Bisa Kurang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0155",
+    "clean_name": "laos",
+    "display_name": "Laos",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0156",
+    "clean_name": "bahan pelengkap",
+    "display_name": "Bahan Pelengkap",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0157",
+    "clean_name": "sere",
+    "display_name": "Sere",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0158",
+    "clean_name": "daun jeruk tipis",
+    "display_name": "Daun Jeruk Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0159",
+    "clean_name": "daun pandan simpulkan",
+    "display_name": "Daun Pandan Simpulkan",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.95
+    ]
+  },
+  {
+    "ingredient_id": "ING-0160",
+    "clean_name": "daun kemangi",
+    "display_name": "Daun Kemangi",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.95
+    ]
+  },
+  {
+    "ingredient_id": "ING-0161",
+    "clean_name": "potongan daun bawang",
+    "display_name": "Potongan Daun Bawang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0162",
+    "clean_name": "kecap",
+    "display_name": "Kecap",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.5,
+      0.6,
+      0,
+      0.1,
+      0.5,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0163",
+    "clean_name": "gula garam penyedap",
+    "display_name": "Gula Garam Penyedap",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0164",
+    "clean_name": "susu cair putih plain",
+    "display_name": "Susu Cair Putih Plain",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0.3,
+      0.1,
+      0,
+      0,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0165",
+    "clean_name": "sosis sapi ayam",
+    "display_name": "Sosis Sapi Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0166",
+    "clean_name": "mentega butter",
+    "display_name": "Mentega Butter",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0167",
+    "clean_name": "minyak sayur",
+    "display_name": "Minyak Sayur",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0168",
+    "clean_name": "kacang panjang",
+    "display_name": "Kacang Panjang",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0169",
+    "clean_name": "saus raja rasa",
+    "display_name": "Saus Raja Rasa",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.4,
+      0.2,
+      0.1,
+      0.4,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0170",
+    "clean_name": "daging kambing boleh sapiayam",
+    "display_name": "Daging Kambing Boleh Sapiayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0171",
+    "clean_name": "beras",
+    "display_name": "Beras",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0172",
+    "clean_name": "bumbu kari",
+    "display_name": "Bumbu Kari",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0173",
+    "clean_name": "jari kunyit bakar",
+    "display_name": "Jari Kunyit Bakar",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0174",
+    "clean_name": "lada butiran",
+    "display_name": "Lada Butiran",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0175",
+    "clean_name": "telur dadar",
+    "display_name": "Telur Dadar",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0176",
+    "clean_name": "bawang goreng",
+    "display_name": "Bawang Goreng",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0177",
+    "clean_name": "emping",
+    "display_name": "Emping",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0.3,
+      0,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0178",
+    "clean_name": "acar",
+    "display_name": "Acar",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0.7,
+      0,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0179",
+    "clean_name": "kacang tanah goreng",
+    "display_name": "Kacang Tanah Goreng",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0.2,
+      0.1,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0180",
+    "clean_name": "cabai merah keriting",
+    "display_name": "Cabai Merah Keriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0181",
+    "clean_name": "bawang bombay lalu",
+    "display_name": "Bawang Bombay Lalu",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0182",
+    "clean_name": "saus cabai",
+    "display_name": "Saus Cabai",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0183",
+    "clean_name": "lemon",
+    "display_name": "Lemon",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.15,
+      0,
+      0.85,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0184",
+    "clean_name": "bihun",
+    "display_name": "Bihun",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.05,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0185",
+    "clean_name": "telor puyuh",
+    "display_name": "Telor Puyuh",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0186",
+    "clean_name": "buncis",
+    "display_name": "Buncis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.15,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0187",
+    "clean_name": "bumbu penyedap",
+    "display_name": "Bumbu Penyedap",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0188",
+    "clean_name": "bahan daging crispy",
+    "display_name": "Bahan Daging Crispy",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.75,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0189",
+    "clean_name": "daging sapi",
+    "display_name": "Daging Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0190",
+    "clean_name": "tepung terigu",
+    "display_name": "Tepung Terigu",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.7,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0191",
+    "clean_name": "bawang putih bubuk",
+    "display_name": "Bawang Putih Bubuk",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0192",
+    "clean_name": "lada putih",
+    "display_name": "Lada Putih",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0193",
+    "clean_name": "perasan jeruk nipis",
+    "display_name": "Perasan Jeruk Nipis",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0194",
+    "clean_name": "bumbu lada hitam",
+    "display_name": "Bumbu Lada Hitam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0195",
+    "clean_name": "lada hitam kasar",
+    "display_name": "Lada Hitam Kasar",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0196",
+    "clean_name": "nanas parutblender tanpa air",
+    "display_name": "Nanas Parutblender Tanpa Air",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0.6,
+      0,
+      0.5,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0197",
+    "clean_name": "tomatiris bagi",
+    "display_name": "Tomatiris Bagi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0198",
+    "clean_name": "bumbu kari bubuk",
+    "display_name": "Bumbu Kari Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0199",
+    "clean_name": "serehambil putihnya",
+    "display_name": "Serehambil Putihnya",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0200",
+    "clean_name": "daun jeruksobek",
+    "display_name": "Daun Jeruksobek",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0201",
+    "clean_name": "bawal",
+    "display_name": "Bawal",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0202",
+    "clean_name": "belimbing",
+    "display_name": "Belimbing",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.4,
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0203",
+    "clean_name": "tomat dadu",
+    "display_name": "Tomat Dadu",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0204",
+    "clean_name": "air putih",
+    "display_name": "Air Putih",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0205",
+    "clean_name": "tongkol",
+    "display_name": "Tongkol",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0206",
+    "clean_name": "gula garam minyak",
+    "display_name": "Gula Garam Minyak",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0207",
+    "clean_name": "bunga pepaya",
+    "display_name": "Bunga Pepaya",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0208",
+    "clean_name": "tetelanpipi sapi",
+    "display_name": "Tetelanpipi Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0209",
+    "clean_name": "cabe",
+    "display_name": "Cabe",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0210",
+    "clean_name": "terasi abc",
+    "display_name": "Terasi Abc",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0,
+      0.7,
+      0.2,
+      0.2,
+      0.9,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0211",
+    "clean_name": "tahu goreng",
+    "display_name": "Tahu Goreng",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0212",
+    "clean_name": "kubis",
+    "display_name": "Kubis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0213",
+    "clean_name": "helai daun bawang",
+    "display_name": "Helai Daun Bawang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0214",
+    "clean_name": "garam gula penyedap",
+    "display_name": "Garam Gula Penyedap",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0215",
+    "clean_name": "adonan tepung krispi",
+    "display_name": "Adonan Tepung Krispi",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0216",
+    "clean_name": "tepung beras",
+    "display_name": "Tepung Beras",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0217",
+    "clean_name": "ketumbar bubuk ketumbar",
+    "display_name": "Ketumbar Bubuk Ketumbar",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0218",
+    "clean_name": "magic lezat",
+    "display_name": "Magic Lezat",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0219",
+    "clean_name": "ayam fillet",
+    "display_name": "Ayam Fillet",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0220",
+    "clean_name": "saos teriyaki",
+    "display_name": "Saos Teriyaki",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.6,
+      0.4,
+      0.1,
+      0,
+      0.4,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0221",
+    "clean_name": "bakso",
+    "display_name": "Bakso",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.3,
+      0,
+      0,
+      0.6,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0222",
+    "clean_name": "saos pedas",
+    "display_name": "Saos Pedas",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0.2,
+      0.1,
+      0.1,
+      0.1,
+      0.9,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0223",
+    "clean_name": "masako",
+    "display_name": "Masako",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0224",
+    "clean_name": "sayur kol",
+    "display_name": "Sayur Kol",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0225",
+    "clean_name": "timun",
+    "display_name": "Timun",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0226",
+    "clean_name": "lenjer kacang panjang",
+    "display_name": "Lenjer Kacang Panjang",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0227",
+    "clean_name": "tempe semangit",
+    "display_name": "Tempe Semangit",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0.1,
+      0.1,
+      0.4,
+      0.7,
+      0,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0228",
+    "clean_name": "santan",
+    "display_name": "Santan",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0229",
+    "clean_name": "tahu",
+    "display_name": "Tahu",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0230",
+    "clean_name": "daun serai",
+    "display_name": "Daun Serai",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0231",
+    "clean_name": "saus tomat",
+    "display_name": "Saus Tomat",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0.2,
+      0.3,
+      0,
+      0.3,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0232",
+    "clean_name": "air secukup nya",
+    "display_name": "Air Secukup Nya",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0233",
+    "clean_name": "garam gula secukup nya",
+    "display_name": "Garam Gula Secukup Nya",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0234",
+    "clean_name": "jari jahe",
+    "display_name": "Jari Jahe",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0235",
+    "clean_name": "jari kunyit",
+    "display_name": "Jari Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0236",
+    "clean_name": "cabe merah kriting",
+    "display_name": "Cabe Merah Kriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0237",
+    "clean_name": "helai daun jeruk",
+    "display_name": "Helai Daun Jeruk",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0238",
+    "clean_name": "kemangi",
+    "display_name": "Kemangi",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.95
+    ]
+  },
+  {
+    "ingredient_id": "ING-0239",
+    "clean_name": "daging kambing dipotong",
+    "display_name": "Daging Kambing Dipotong",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0240",
+    "clean_name": "jahe kunyit",
+    "display_name": "Jahe Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0241",
+    "clean_name": "rawit domba",
+    "display_name": "Rawit Domba",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0242",
+    "clean_name": "gulput",
+    "display_name": "Gulput",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.05,
+      0.2,
+      0.1,
+      0.15,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0243",
+    "clean_name": "bumbu kasar",
+    "display_name": "Bumbu Kasar",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0244",
+    "clean_name": "minyak menumis",
+    "display_name": "Minyak Menumis",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0245",
+    "clean_name": "ikan nila",
+    "display_name": "Ikan Nila",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0246",
+    "clean_name": "bumbu ikan",
+    "display_name": "Bumbu Ikan",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0247",
+    "clean_name": "cabe kriting merah",
+    "display_name": "Cabe Kriting Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0248",
+    "clean_name": "lidah sapi",
+    "display_name": "Lidah Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0249",
+    "clean_name": "kentang dipotong panjang",
+    "display_name": "Kentang Dipotong Panjang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0250",
+    "clean_name": "pack soun",
+    "display_name": "Pack Soun",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.05,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0251",
+    "clean_name": "ikan bawal putih",
+    "display_name": "Ikan Bawal Putih",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0252",
+    "clean_name": "satu",
+    "display_name": "Satu",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0253",
+    "clean_name": "nanas manis dadu",
+    "display_name": "Nanas Manis Dadu",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.6,
+      0,
+      0.5,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0254",
+    "clean_name": "sereh memarkan",
+    "display_name": "Sereh Memarkan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0255",
+    "clean_name": "cabe merah buang",
+    "display_name": "Cabe Merah Buang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0256",
+    "clean_name": "bahan utama",
+    "display_name": "Bahan Utama",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0257",
+    "clean_name": "lainnya",
+    "display_name": "Lainnya",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0258",
+    "clean_name": "tahu matang",
+    "display_name": "Tahu Matang",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0259",
+    "clean_name": "miri",
+    "display_name": "Miri",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.05,
+      0.2,
+      0.1,
+      0.15,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0260",
+    "clean_name": "lengkus",
+    "display_name": "Lengkus",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.05,
+      0.2,
+      0.1,
+      0.15,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0261",
+    "clean_name": "cabe marah",
+    "display_name": "Cabe Marah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0262",
+    "clean_name": "bj cabe merah",
+    "display_name": "Bj Cabe Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0263",
+    "clean_name": "bj bawang merah",
+    "display_name": "Bj Bawang Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0264",
+    "clean_name": "bj bawang putih",
+    "display_name": "Bj Bawang Putih",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0265",
+    "clean_name": "telur kocok lepas",
+    "display_name": "Telur Kocok Lepas",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0266",
+    "clean_name": "sosis",
+    "display_name": "Sosis",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.1,
+      0.5,
+      0,
+      0,
+      0.5,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0267",
+    "clean_name": "garam gula air",
+    "display_name": "Garam Gula Air",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0268",
+    "clean_name": "tepung sajiku",
+    "display_name": "Tepung Sajiku",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0269",
+    "clean_name": "sapi khas dalam",
+    "display_name": "Sapi Khas Dalam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0270",
+    "clean_name": "paprika",
+    "display_name": "Paprika",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.05,
+      0.05,
+      0.2,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0271",
+    "clean_name": "sendok saus teriyaki",
+    "display_name": "Sendok Saus Teriyaki",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.6,
+      0.4,
+      0.1,
+      0,
+      0.4,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0272",
+    "clean_name": "sendok kecap manis",
+    "display_name": "Sendok Kecap Manis",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.85,
+      0.3,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0273",
+    "clean_name": "jahe lebih",
+    "display_name": "Jahe Lebih",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0274",
+    "clean_name": "kikil",
+    "display_name": "Kikil",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.6,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0275",
+    "clean_name": "papam tempe",
+    "display_name": "Papam Tempe",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0276",
+    "clean_name": "cabe keriting merah",
+    "display_name": "Cabe Keriting Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0277",
+    "clean_name": "lmbar daun salam",
+    "display_name": "Lmbar Daun Salam",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0278",
+    "clean_name": "plastik tahu coklat",
+    "display_name": "Plastik Tahu Coklat",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0279",
+    "clean_name": "daun kol",
+    "display_name": "Daun Kol",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0280",
+    "clean_name": "kaldu bubuk",
+    "display_name": "Kaldu Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0281",
+    "clean_name": "cabe rawit hijau",
+    "display_name": "Cabe Rawit Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0282",
+    "clean_name": "tahu ukxcm",
+    "display_name": "Tahu Ukxcm",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0283",
+    "clean_name": "tempe ukxcm",
+    "display_name": "Tempe Ukxcm",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0284",
+    "clean_name": "kekyan panjang",
+    "display_name": "Kekyan Panjang",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.75,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0285",
+    "clean_name": "bakso sapi",
+    "display_name": "Bakso Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0286",
+    "clean_name": "tomat uksedang",
+    "display_name": "Tomat Uksedang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0287",
+    "clean_name": "saori saus tiram",
+    "display_name": "Saori Saus Tiram",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0288",
+    "clean_name": "belimbing air matang",
+    "display_name": "Belimbing Air Matang",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0.4,
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0289",
+    "clean_name": "garam lada",
+    "display_name": "Garam Lada",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0290",
+    "clean_name": "mentega tawar",
+    "display_name": "Mentega Tawar",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0291",
+    "clean_name": "bombay",
+    "display_name": "Bombay",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0292",
+    "clean_name": "daun bawang rajang",
+    "display_name": "Daun Bawang Rajang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0293",
+    "clean_name": "smoked ham",
+    "display_name": "Smoked Ham",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.1,
+      0.6,
+      0,
+      0,
+      0.5,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0294",
+    "clean_name": "jamur champignon",
+    "display_name": "Jamur Champignon",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0295",
+    "clean_name": "whipping cream",
+    "display_name": "Whipping Cream",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.2,
+      0.1,
+      0,
+      0,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0296",
+    "clean_name": "parmesan",
+    "display_name": "Parmesan",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.5,
+      0.1,
+      0.1,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0297",
+    "clean_name": "daun kol tipis",
+    "display_name": "Daun Kol Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0298",
+    "clean_name": "seruas jahe",
+    "display_name": "Seruas Jahe",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0299",
+    "clean_name": "seruas kunyit",
+    "display_name": "Seruas Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0300",
+    "clean_name": "cabe merah keriting",
+    "display_name": "Cabe Merah Keriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0301",
+    "clean_name": "daun jeruk buang tulangnya",
+    "display_name": "Daun Jeruk Buang Tulangnya",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0302",
+    "clean_name": "sereh simpulkan",
+    "display_name": "Sereh Simpulkan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0303",
+    "clean_name": "seruas lengkuas",
+    "display_name": "Seruas Lengkuas",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0304",
+    "clean_name": "gula merah",
+    "display_name": "Gula Merah",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.9,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0305",
+    "clean_name": "garam kaldu sapi bubuk",
+    "display_name": "Garam Kaldu Sapi Bubuk",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0306",
+    "clean_name": "minyak goreng menumis",
+    "display_name": "Minyak Goreng Menumis",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0307",
+    "clean_name": "ayam bagian paha bagi",
+    "display_name": "Ayam Bagian Paha Bagi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0308",
+    "clean_name": "lmbr daun jeruk",
+    "display_name": "Lmbr Daun Jeruk",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0309",
+    "clean_name": "sesuai selera sayur kol",
+    "display_name": "Sesuai Selera Sayur Kol",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0310",
+    "clean_name": "selera cabe rawit sesua",
+    "display_name": "Selera Cabe Rawit Sesua",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0311",
+    "clean_name": "parutan nanas",
+    "display_name": "Parutan Nanas",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.6,
+      0,
+      0.5,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0312",
+    "clean_name": "bumbu marinase",
+    "display_name": "Bumbu Marinase",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0313",
+    "clean_name": "asam larutkan dg air",
+    "display_name": "Asam Larutkan Dg Air",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0.1,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0314",
+    "clean_name": "bumbu pelengkap",
+    "display_name": "Bumbu Pelengkap",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0315",
+    "clean_name": "irisan bawang merah",
+    "display_name": "Irisan Bawang Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0316",
+    "clean_name": "cuka",
+    "display_name": "Cuka",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0,
+      0,
+      0.95,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0317",
+    "clean_name": "irisan tomat",
+    "display_name": "Irisan Tomat",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0318",
+    "clean_name": "irisan jeruk limau",
+    "display_name": "Irisan Jeruk Limau",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0319",
+    "clean_name": "kacang tanah",
+    "display_name": "Kacang Tanah",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0.2,
+      0.1,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0320",
+    "clean_name": "irisan cabe merah",
+    "display_name": "Irisan Cabe Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0321",
+    "clean_name": "dada ayam sesuai selera",
+    "display_name": "Dada Ayam Sesuai Selera",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0322",
+    "clean_name": "cabai hijau keriting",
+    "display_name": "Cabai Hijau Keriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.15,
+      0.15,
+      0,
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0323",
+    "clean_name": "bumbu racik ayam goreng",
+    "display_name": "Bumbu Racik Ayam Goreng",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0324",
+    "clean_name": "mie urai",
+    "display_name": "Mie Urai",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0325",
+    "clean_name": "seruas laos",
+    "display_name": "Seruas Laos",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0326",
+    "clean_name": "seruas kencur",
+    "display_name": "Seruas Kencur",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0327",
+    "clean_name": "minyak menumis bumbu",
+    "display_name": "Minyak Menumis Bumbu",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0328",
+    "clean_name": "kecap bango",
+    "display_name": "Kecap Bango",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.5,
+      0.6,
+      0,
+      0.1,
+      0.5,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0329",
+    "clean_name": "brokoli",
+    "display_name": "Brokoli",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0330",
+    "clean_name": "di haluskan",
+    "display_name": "Di Haluskan",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0331",
+    "clean_name": "tepung panir",
+    "display_name": "Tepung Panir",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0332",
+    "clean_name": "g daging kambing dadu",
+    "display_name": "G Daging Kambing Dadu",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0333",
+    "clean_name": "air asam jawa",
+    "display_name": "Air Asam Jawa",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0.1,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0334",
+    "clean_name": "santal kental",
+    "display_name": "Santal Kental",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0335",
+    "clean_name": "cengkih",
+    "display_name": "Cengkih",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.3,
+      0,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0336",
+    "clean_name": "sesuai selera wortel",
+    "display_name": "Sesuai Selera Wortel",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0337",
+    "clean_name": "kentang tambahkan sayur lain",
+    "display_name": "Kentang Tambahkan Sayur Lain",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0338",
+    "clean_name": "seledri",
+    "display_name": "Seledri",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0339",
+    "clean_name": "daging sapi diiris",
+    "display_name": "Daging Sapi Diiris",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0340",
+    "clean_name": "soun telah diseduh ditiriskan",
+    "display_name": "Soun Telah Diseduh Ditiriskan",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.05,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0341",
+    "clean_name": "ons daging sapi",
+    "display_name": "Ons Daging Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0342",
+    "clean_name": "buncir kira",
+    "display_name": "Buncir Kira",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.15,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0343",
+    "clean_name": "taousi hitam",
+    "display_name": "Taousi Hitam",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0.2,
+      0.3,
+      0.85,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0344",
+    "clean_name": "royco kaldu sapi ayam",
+    "display_name": "Royco Kaldu Sapi Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0345",
+    "clean_name": "sesuai selera kecap manis",
+    "display_name": "Sesuai Selera Kecap Manis",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.85,
+      0.3,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0346",
+    "clean_name": "nanas parut mengempukkan daging",
+    "display_name": "Nanas Parut Mengempukkan Daging",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.6,
+      0,
+      0.5,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0347",
+    "clean_name": "jahe bubuk",
+    "display_name": "Jahe Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0348",
+    "clean_name": "blok gula jawa",
+    "display_name": "Blok Gula Jawa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.9,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0349",
+    "clean_name": "ikan tongkol",
+    "display_name": "Ikan Tongkol",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0350",
+    "clean_name": "daun solong",
+    "display_name": "Daun Solong",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0351",
+    "clean_name": "minyak",
+    "display_name": "Minyak",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0352",
+    "clean_name": "tahu sesuai selera",
+    "display_name": "Tahu Sesuai Selera",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0353",
+    "clean_name": "kara",
+    "display_name": "Kara",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0354",
+    "clean_name": "bumbu kari indofood",
+    "display_name": "Bumbu Kari Indofood",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0355",
+    "clean_name": "jempol laja",
+    "display_name": "Jempol Laja",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0356",
+    "clean_name": "roti burger",
+    "display_name": "Roti Burger",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.2,
+      0.1,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0357",
+    "clean_name": "beef pastrami",
+    "display_name": "Beef Pastrami",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0358",
+    "clean_name": "mayonaise",
+    "display_name": "Mayonaise",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.3,
+      0.2,
+      0.4,
+      0,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0359",
+    "clean_name": "keju parut",
+    "display_name": "Keju Parut",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.5,
+      0.1,
+      0.1,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0360",
+    "clean_name": "tempe dadu",
+    "display_name": "Tempe Dadu",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0361",
+    "clean_name": "cabai hijau",
+    "display_name": "Cabai Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.15,
+      0.15,
+      0,
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0362",
+    "clean_name": "tomat ukkecil",
+    "display_name": "Tomat Ukkecil",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0363",
+    "clean_name": "daun jeruk nipis",
+    "display_name": "Daun Jeruk Nipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0364",
+    "clean_name": "penuh saus tiram",
+    "display_name": "Penuh Saus Tiram",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0365",
+    "clean_name": "penuh saus sambal",
+    "display_name": "Penuh Saus Sambal",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0.2,
+      0.1,
+      0.1,
+      0.1,
+      0.9,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0366",
+    "clean_name": "tepung maizena",
+    "display_name": "Tepung Maizena",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0367",
+    "clean_name": "ons cabe merah kriting",
+    "display_name": "Ons Cabe Merah Kriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0368",
+    "clean_name": "jeruk lemon",
+    "display_name": "Jeruk Lemon",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.15,
+      0,
+      0.85,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0369",
+    "clean_name": "cabe rawit sesuai selera",
+    "display_name": "Cabe Rawit Sesuai Selera",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0370",
+    "clean_name": "kencur",
+    "display_name": "Kencur",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0371",
+    "clean_name": "gula jawa",
+    "display_name": "Gula Jawa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.9,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0372",
+    "clean_name": "sesuai selera garam",
+    "display_name": "Sesuai Selera Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0373",
+    "clean_name": "kotak tempe",
+    "display_name": "Kotak Tempe",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0374",
+    "clean_name": "daun bawang pre",
+    "display_name": "Daun Bawang Pre",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0375",
+    "clean_name": "telur kocok",
+    "display_name": "Telur Kocok",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0376",
+    "clean_name": "lada putih bubuk",
+    "display_name": "Lada Putih Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0377",
+    "clean_name": "kaldu jamur bubuk",
+    "display_name": "Kaldu Jamur Bubuk",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0378",
+    "clean_name": "ayam bgian",
+    "display_name": "Ayam Bgian",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0379",
+    "clean_name": "kecap bango bacem ayam",
+    "display_name": "Kecap Bango Bacem Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.5,
+      0.6,
+      0,
+      0.1,
+      0.5,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0380",
+    "clean_name": "sambel tomat",
+    "display_name": "Sambel Tomat",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0381",
+    "clean_name": "fillet ayam dadu",
+    "display_name": "Fillet Ayam Dadu",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0382",
+    "clean_name": "wortel korek api",
+    "display_name": "Wortel Korek Api",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0383",
+    "clean_name": "bawang merah tipis",
+    "display_name": "Bawang Merah Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0384",
+    "clean_name": "saos sambal",
+    "display_name": "Saos Sambal",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0.2,
+      0.1,
+      0.1,
+      0.1,
+      0.9,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0385",
+    "clean_name": "cabai merah tipis",
+    "display_name": "Cabai Merah Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0386",
+    "clean_name": "garam merica bubuk",
+    "display_name": "Garam Merica Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0387",
+    "clean_name": "air kaldu ayam",
+    "display_name": "Air Kaldu Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0388",
+    "clean_name": "saos tomat",
+    "display_name": "Saos Tomat",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0.2,
+      0.3,
+      0,
+      0.3,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0389",
+    "clean_name": "ikan tuna",
+    "display_name": "Ikan Tuna",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0390",
+    "clean_name": "margarin",
+    "display_name": "Margarin",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0391",
+    "clean_name": "tepung kanji",
+    "display_name": "Tepung Kanji",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0392",
+    "clean_name": "daun bawang daun sledri",
+    "display_name": "Daun Bawang Daun Sledri",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0393",
+    "clean_name": "bumbu kuah",
+    "display_name": "Bumbu Kuah",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0394",
+    "clean_name": "daun bawang sledri",
+    "display_name": "Daun Bawang Sledri",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0395",
+    "clean_name": "ladaku",
+    "display_name": "Ladaku",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0396",
+    "clean_name": "bumbu bakso",
+    "display_name": "Bumbu Bakso",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.3,
+      0,
+      0,
+      0.6,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0397",
+    "clean_name": "sdikit garam micin",
+    "display_name": "Sdikit Garam Micin",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0398",
+    "clean_name": "bumbu sambel pedas",
+    "display_name": "Bumbu Sambel Pedas",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0399",
+    "clean_name": "bawang merah baput",
+    "display_name": "Bawang Merah Baput",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0400",
+    "clean_name": "garam micin",
+    "display_name": "Garam Micin",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0401",
+    "clean_name": "separo tahu putih",
+    "display_name": "Separo Tahu Putih",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0402",
+    "clean_name": "tepung bumbu sajiku",
+    "display_name": "Tepung Bumbu Sajiku",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0403",
+    "clean_name": "daun bawang preh",
+    "display_name": "Daun Bawang Preh",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0404",
+    "clean_name": "wortel tipis",
+    "display_name": "Wortel Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0405",
+    "clean_name": "bawang putih tipis",
+    "display_name": "Bawang Putih Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0406",
+    "clean_name": "lemon juice",
+    "display_name": "Lemon Juice",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.15,
+      0,
+      0.85,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0407",
+    "clean_name": "black pepper",
+    "display_name": "Black Pepper",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0408",
+    "clean_name": "munjung mentega",
+    "display_name": "Munjung Mentega",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0409",
+    "clean_name": "telur asin matang",
+    "display_name": "Telur Asin Matang",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0,
+      0.7,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0410",
+    "clean_name": "cabe bubuk",
+    "display_name": "Cabe Bubuk",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0411",
+    "clean_name": "ikan gurame",
+    "display_name": "Ikan Gurame",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0412",
+    "clean_name": "tempoyak",
+    "display_name": "Tempoyak",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.1,
+      0.5,
+      0.1,
+      0.3,
+      0.1,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0413",
+    "clean_name": "serbuk kunyit",
+    "display_name": "Serbuk Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0414",
+    "clean_name": "daun kunyit",
+    "display_name": "Daun Kunyit",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0415",
+    "clean_name": "asam gelugur",
+    "display_name": "Asam Gelugur",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0.1,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0416",
+    "clean_name": "cili pedas",
+    "display_name": "Cili Pedas",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.05,
+      0.2,
+      0.1,
+      0.15,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0417",
+    "clean_name": "kecap manis kecap asin",
+    "display_name": "Kecap Manis Kecap Asin",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.85,
+      0.3,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0418",
+    "clean_name": "krupuk kulit",
+    "display_name": "Krupuk Kulit",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0.3,
+      0,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0419",
+    "clean_name": "pcs tahu sutra",
+    "display_name": "Pcs Tahu Sutra",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0420",
+    "clean_name": "sun kara",
+    "display_name": "Sun Kara",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0421",
+    "clean_name": "rawit merah cabe",
+    "display_name": "Rawit Merah Cabe",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0422",
+    "clean_name": "blok knorr",
+    "display_name": "Blok Knorr",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0423",
+    "clean_name": "ati ampela ayam",
+    "display_name": "Ati Ampela Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0424",
+    "clean_name": "ayam ambil dagingnya",
+    "display_name": "Ayam Ambil Dagingnya",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0425",
+    "clean_name": "asam jawa",
+    "display_name": "Asam Jawa",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0.1,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0426",
+    "clean_name": "bawang putih cacah",
+    "display_name": "Bawang Putih Cacah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0427",
+    "clean_name": "kecap manis tropicana slim",
+    "display_name": "Kecap Manis Tropicana Slim",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.85,
+      0.3,
+      0,
+      0.1,
+      0.3,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0428",
+    "clean_name": "madu",
+    "display_name": "Madu",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.95,
+      0,
+      0.1,
+      0,
+      0,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0429",
+    "clean_name": "saus sambel",
+    "display_name": "Saus Sambel",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.4,
+      0.2,
+      0.1,
+      0.4,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0430",
+    "clean_name": "tahu goreng kering",
+    "display_name": "Tahu Goreng Kering",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0431",
+    "clean_name": "bawang bombay tipis",
+    "display_name": "Bawang Bombay Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0432",
+    "clean_name": "saus inggris",
+    "display_name": "Saus Inggris",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.4,
+      0.2,
+      0.1,
+      0.4,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0433",
+    "clean_name": "kaldu bubuk instan",
+    "display_name": "Kaldu Bubuk Instan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0434",
+    "clean_name": "wijen hiasan",
+    "display_name": "Wijen Hiasan",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0435",
+    "clean_name": "ikan gabus giling",
+    "display_name": "Ikan Gabus Giling",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0436",
+    "clean_name": "ons sagu udang",
+    "display_name": "Ons Sagu Udang",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0437",
+    "clean_name": "sasa",
+    "display_name": "Sasa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0438",
+    "clean_name": "air es",
+    "display_name": "Air Es",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0439",
+    "clean_name": "pare",
+    "display_name": "Pare",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.9,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0440",
+    "clean_name": "telor ayam kocok lepas",
+    "display_name": "Telor Ayam Kocok Lepas",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0441",
+    "clean_name": "abon cabe",
+    "display_name": "Abon Cabe",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0442",
+    "clean_name": "sesuai selera gulagaram merica",
+    "display_name": "Sesuai Selera Gulagaram Merica",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0443",
+    "clean_name": "ayam negeri",
+    "display_name": "Ayam Negeri",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0444",
+    "clean_name": "baking powder",
+    "display_name": "Baking Powder",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0445",
+    "clean_name": "dancow putih",
+    "display_name": "Dancow Putih",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0446",
+    "clean_name": "cuka dapurjeruk nipislemon",
+    "display_name": "Cuka Dapurjeruk Nipislemon",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0,
+      0,
+      0.95,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0447",
+    "clean_name": "air hangat",
+    "display_name": "Air Hangat",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0448",
+    "clean_name": "kedelai calon tempe",
+    "display_name": "Kedelai Calon Tempe",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0449",
+    "clean_name": "tepung tapioka",
+    "display_name": "Tepung Tapioka",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0450",
+    "clean_name": "bumbu celupan",
+    "display_name": "Bumbu Celupan",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0451",
+    "clean_name": "kepala ikan patin",
+    "display_name": "Kepala Ikan Patin",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0.2,
+      0,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0452",
+    "clean_name": "gula putih",
+    "display_name": "Gula Putih",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0453",
+    "clean_name": "belimbing wuluh",
+    "display_name": "Belimbing Wuluh",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0,
+      0,
+      0.9,
+      0.1,
+      0,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0454",
+    "clean_name": "kentang",
+    "display_name": "Kentang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0455",
+    "clean_name": "cabe gendot",
+    "display_name": "Cabe Gendot",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0456",
+    "clean_name": "bubuk merica",
+    "display_name": "Bubuk Merica",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0457",
+    "clean_name": "kaldu sapi saya royco",
+    "display_name": "Kaldu Sapi Saya Royco",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0458",
+    "clean_name": "ikan dencis",
+    "display_name": "Ikan Dencis",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0459",
+    "clean_name": "daun prei",
+    "display_name": "Daun Prei",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0460",
+    "clean_name": "kunyit seujung jari",
+    "display_name": "Kunyit Seujung Jari",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0461",
+    "clean_name": "jahe saja",
+    "display_name": "Jahe Saja",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0,
+      0.4,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0462",
+    "clean_name": "tomat setengah dadu",
+    "display_name": "Tomat Setengah Dadu",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0463",
+    "clean_name": "sisakan kerangka ikannya",
+    "display_name": "Sisakan Kerangka Ikannya",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.2,
+      0.1,
+      0,
+      0.85,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0464",
+    "clean_name": "bahan saos",
+    "display_name": "Bahan Saos",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.4,
+      0.2,
+      0.1,
+      0.4,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0465",
+    "clean_name": "saos sambel",
+    "display_name": "Saos Sambel",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.4,
+      0.2,
+      0.1,
+      0.4,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0466",
+    "clean_name": "saori saos tiram",
+    "display_name": "Saori Saos Tiram",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0467",
+    "clean_name": "bawang bombai",
+    "display_name": "Bawang Bombai",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0468",
+    "clean_name": "maizena larutkan air",
+    "display_name": "Maizena Larutkan Air",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0469",
+    "clean_name": "daon bawang",
+    "display_name": "Daon Bawang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0470",
+    "clean_name": "paprika hijau",
+    "display_name": "Paprika Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.05,
+      0.05,
+      0.2,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0471",
+    "clean_name": "paprika merah",
+    "display_name": "Paprika Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.05,
+      0.05,
+      0.2,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0472",
+    "clean_name": "saori saus lada hitam",
+    "display_name": "Saori Saus Lada Hitam",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0473",
+    "clean_name": "salam",
+    "display_name": "Salam",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0474",
+    "clean_name": "kunir",
+    "display_name": "Kunir",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0475",
+    "clean_name": "telor ayam",
+    "display_name": "Telor Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0476",
+    "clean_name": "wortel parut",
+    "display_name": "Wortel Parut",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0477",
+    "clean_name": "merica garam",
+    "display_name": "Merica Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0478",
+    "clean_name": "bahan saus",
+    "display_name": "Bahan Saus",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.4,
+      0.2,
+      0.1,
+      0.4,
+      0.1,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0479",
+    "clean_name": "saori saus asam manis",
+    "display_name": "Saori Saus Asam Manis",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0480",
+    "clean_name": "helai daun salam",
+    "display_name": "Helai Daun Salam",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0481",
+    "clean_name": "asem jawa diberi air",
+    "display_name": "Asem Jawa Diberi Air",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0482",
+    "clean_name": "lombok",
+    "display_name": "Lombok",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0483",
+    "clean_name": "kira kunyit",
+    "display_name": "Kira Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0484",
+    "clean_name": "jintem",
+    "display_name": "Jintem",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0485",
+    "clean_name": "hati sapi",
+    "display_name": "Hati Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0486",
+    "clean_name": "sesuai selera cabe",
+    "display_name": "Sesuai Selera Cabe",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0487",
+    "clean_name": "mie instan",
+    "display_name": "Mie Instan",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0488",
+    "clean_name": "masako ayam",
+    "display_name": "Masako Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0489",
+    "clean_name": "kulit kakap",
+    "display_name": "Kulit Kakap",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0490",
+    "clean_name": "saus sambal",
+    "display_name": "Saus Sambal",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.1,
+      0.2,
+      0.1,
+      0.1,
+      0.1,
+      0.9,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0491",
+    "clean_name": "bawang bombay kotak",
+    "display_name": "Bawang Bombay Kotak",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0492",
+    "clean_name": "larutan maizena",
+    "display_name": "Larutan Maizena",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0493",
+    "clean_name": "tahu cina dadu",
+    "display_name": "Tahu Cina Dadu",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0494",
+    "clean_name": "pete",
+    "display_name": "Pete",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.4,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0495",
+    "clean_name": "kecap garam",
+    "display_name": "Kecap Garam",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0496",
+    "clean_name": "daging paha kambing",
+    "display_name": "Daging Paha Kambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0497",
+    "clean_name": "air lemon",
+    "display_name": "Air Lemon",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0.15,
+      0,
+      0.85,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0498",
+    "clean_name": "bumbu bubuk",
+    "display_name": "Bumbu Bubuk",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0499",
+    "clean_name": "jinten",
+    "display_name": "Jinten",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0500",
+    "clean_name": "kaldu sapi bubuk",
+    "display_name": "Kaldu Sapi Bubuk",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0501",
+    "clean_name": "pisang tanduk",
+    "display_name": "Pisang Tanduk",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.8,
+      0,
+      0.1,
+      0,
+      0,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0502",
+    "clean_name": "canting beras",
+    "display_name": "Canting Beras",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0503",
+    "clean_name": "daging sapikambing",
+    "display_name": "Daging Sapikambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0504",
+    "clean_name": "kismis",
+    "display_name": "Kismis",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0505",
+    "clean_name": "kayu manis bubuk",
+    "display_name": "Kayu Manis Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.6,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0506",
+    "clean_name": "pekak bunga lawang",
+    "display_name": "Pekak Bunga Lawang",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0,
+      0,
+      0.95
+    ]
+  },
+  {
+    "ingredient_id": "ING-0507",
+    "clean_name": "kurma buang",
+    "display_name": "Kurma Buang",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0508",
+    "clean_name": "es batu",
+    "display_name": "Es Batu",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0509",
+    "clean_name": "daging sapi pipih",
+    "display_name": "Daging Sapi Pipih",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0510",
+    "clean_name": "ons kentangpotong gorengsisihkan",
+    "display_name": "Ons Kentangpotong Gorengsisihkan",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0511",
+    "clean_name": "mentega blueband",
+    "display_name": "Mentega Blueband",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0512",
+    "clean_name": "bumbu alusin",
+    "display_name": "Bumbu Alusin",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0513",
+    "clean_name": "mrica",
+    "display_name": "Mrica",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0514",
+    "clean_name": "daun jeruk potek",
+    "display_name": "Daun Jeruk Potek",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0515",
+    "clean_name": "sereh ambil putihnyageprek",
+    "display_name": "Sereh Ambil Putihnyageprek",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0516",
+    "clean_name": "brambang goreng tomat garnish",
+    "display_name": "Brambang Goreng Tomat Garnish",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.3,
+      0,
+      0.5,
+      0.1,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0517",
+    "clean_name": "wortel korek",
+    "display_name": "Wortel Korek",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0518",
+    "clean_name": "jagung pipil serut",
+    "display_name": "Jagung Pipil Serut",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.5,
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0519",
+    "clean_name": "bawang merah bawang putih",
+    "display_name": "Bawang Merah Bawang Putih",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0520",
+    "clean_name": "cabe rawit cabe merah",
+    "display_name": "Cabe Rawit Cabe Merah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.95,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0521",
+    "clean_name": "garampenyedap rasa",
+    "display_name": "Garampenyedap Rasa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0522",
+    "clean_name": "kulit lumpia",
+    "display_name": "Kulit Lumpia",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0523",
+    "clean_name": "telurkocok lepas",
+    "display_name": "Telurkocok Lepas",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0524",
+    "clean_name": "bambu",
+    "display_name": "Bambu",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0525",
+    "clean_name": "kaldu sapi",
+    "display_name": "Kaldu Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0526",
+    "clean_name": "serai ambil putihnya memarkan",
+    "display_name": "Serai Ambil Putihnya Memarkan",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0527",
+    "clean_name": "daun jeruk remas",
+    "display_name": "Daun Jeruk Remas",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.3,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0528",
+    "clean_name": "telunjuk jari kayu manis",
+    "display_name": "Telunjuk Jari Kayu Manis",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.6,
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0529",
+    "clean_name": "air merebus daging",
+    "display_name": "Air Merebus Daging",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0530",
+    "clean_name": "garam gula kaldu bubuk",
+    "display_name": "Garam Gula Kaldu Bubuk",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0531",
+    "clean_name": "merica butiran",
+    "display_name": "Merica Butiran",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0532",
+    "clean_name": "telunjuk jari kunyit",
+    "display_name": "Telunjuk Jari Kunyit",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0533",
+    "clean_name": "tahu kuning",
+    "display_name": "Tahu Kuning",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0534",
+    "clean_name": "optional garam gula",
+    "display_name": "Optional Garam Gula",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0535",
+    "clean_name": "cabe hijau",
+    "display_name": "Cabe Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0.15,
+      0.15,
+      0,
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0536",
+    "clean_name": "telur bebek",
+    "display_name": "Telur Bebek",
+    "food_group": "Dairy & Eggs",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0,
+      0,
+      0.5,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0537",
+    "clean_name": "kol sobek",
+    "display_name": "Kol Sobek",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0538",
+    "clean_name": "st garam",
+    "display_name": "St Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0539",
+    "clean_name": "st gula putih",
+    "display_name": "St Gula Putih",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0540",
+    "clean_name": "cabe ijo keriting",
+    "display_name": "Cabe Ijo Keriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0541",
+    "clean_name": "cabe setan",
+    "display_name": "Cabe Setan",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0542",
+    "clean_name": "caisim",
+    "display_name": "Caisim",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0543",
+    "clean_name": "tempe kotak panjang",
+    "display_name": "Tempe Kotak Panjang",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0544",
+    "clean_name": "penyedap rasa ayam",
+    "display_name": "Penyedap Rasa Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0545",
+    "clean_name": "cabai",
+    "display_name": "Cabai",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0546",
+    "clean_name": "sd teh jinten",
+    "display_name": "Sd Teh Jinten",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0547",
+    "clean_name": "sd teh mrica",
+    "display_name": "Sd Teh Mrica",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.2,
+      0,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "ingredient_id": "ING-0548",
+    "clean_name": "petai",
+    "display_name": "Petai",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.4,
+      0.2,
+      0,
+      0.7
+    ]
+  },
+  {
+    "ingredient_id": "ING-0549",
+    "clean_name": "jeruk limau",
+    "display_name": "Jeruk Limau",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0550",
+    "clean_name": "terung hijau",
+    "display_name": "Terung Hijau",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0551",
+    "clean_name": "udang rebonebi",
+    "display_name": "Udang Rebonebi",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0552",
+    "clean_name": "mie burung dara",
+    "display_name": "Mie Burung Dara",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0553",
+    "clean_name": "sawi hijau",
+    "display_name": "Sawi Hijau",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0554",
+    "clean_name": "bawangprei",
+    "display_name": "Bawangprei",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0555",
+    "clean_name": "bombay dicincang",
+    "display_name": "Bombay Dicincang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0556",
+    "clean_name": "bawang putih dicincang",
+    "display_name": "Bawang Putih Dicincang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0557",
+    "clean_name": "cabe merah belah",
+    "display_name": "Cabe Merah Belah",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0558",
+    "clean_name": "cheddar parut",
+    "display_name": "Cheddar Parut",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0559",
+    "clean_name": "sosis sony gold",
+    "display_name": "Sosis Sony Gold",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0.1,
+      0.5,
+      0,
+      0,
+      0.5,
+      0.1,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0560",
+    "clean_name": "kulit ayam",
+    "display_name": "Kulit Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0561",
+    "clean_name": "bahan ungkep ayam",
+    "display_name": "Bahan Ungkep Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0562",
+    "clean_name": "bumbu tumis",
+    "display_name": "Bumbu Tumis",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0563",
+    "clean_name": "tumbar",
+    "display_name": "Tumbar",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0564",
+    "clean_name": "sesuai selera gula jawa",
+    "display_name": "Sesuai Selera Gula Jawa",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.9,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0565",
+    "clean_name": "sesuai selera kecap",
+    "display_name": "Sesuai Selera Kecap",
+    "food_group": "Condiments",
+    "flavor_vector": [
+      0.5,
+      0.6,
+      0,
+      0.1,
+      0.5,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0566",
+    "clean_name": "tahu coklat",
+    "display_name": "Tahu Coklat",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0567",
+    "clean_name": "bawang daun",
+    "display_name": "Bawang Daun",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0568",
+    "clean_name": "saori",
+    "display_name": "Saori",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0.2,
+      0.6,
+      0,
+      0.1,
+      0.9,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0569",
+    "clean_name": "royco ayam",
+    "display_name": "Royco Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0570",
+    "clean_name": "kerupuk udang",
+    "display_name": "Kerupuk Udang",
+    "food_group": "Seafood",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0571",
+    "clean_name": "royco garam air",
+    "display_name": "Royco Garam Air",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0572",
+    "clean_name": "sejumput garam",
+    "display_name": "Sejumput Garam",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0573",
+    "clean_name": "roti tawar",
+    "display_name": "Roti Tawar",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.2,
+      0.1,
+      0,
+      0,
+      0,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0574",
+    "clean_name": "mentega",
+    "display_name": "Mentega",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0.2,
+      0,
+      0,
+      0.1,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0575",
+    "clean_name": "daging ayam giling",
+    "display_name": "Daging Ayam Giling",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0576",
+    "clean_name": "bawang merah haluskan",
+    "display_name": "Bawang Merah Haluskan",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.15,
+      0,
+      0,
+      0.1,
+      0.2,
+      0.05,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0577",
+    "clean_name": "jika suka penyedap royco",
+    "display_name": "Jika Suka Penyedap Royco",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0578",
+    "clean_name": "kulit pangsit",
+    "display_name": "Kulit Pangsit",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0,
+      0.05,
+      0,
+      0.05
+    ]
+  },
+  {
+    "ingredient_id": "ING-0579",
+    "clean_name": "daging ikan tenggiri",
+    "display_name": "Daging Ikan Tenggiri",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.05,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0580",
+    "clean_name": "tepung sagu",
+    "display_name": "Tepung Sagu",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0581",
+    "clean_name": "labu siam",
+    "display_name": "Labu Siam",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.4,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.1
+    ]
+  },
+  {
+    "ingredient_id": "ING-0582",
+    "clean_name": "bumbu kacang",
+    "display_name": "Bumbu Kacang",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0583",
+    "clean_name": "garam gula merah air",
+    "display_name": "Garam Gula Merah Air",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0584",
+    "clean_name": "tambahan",
+    "display_name": "Tambahan",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0585",
+    "clean_name": "kulit pangsi",
+    "display_name": "Kulit Pangsi",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0586",
+    "clean_name": "tahu kulitcoklat",
+    "display_name": "Tahu Kulitcoklat",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.4,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0587",
+    "clean_name": "jamur merang tipis",
+    "display_name": "Jamur Merang Tipis",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.1,
+      0.8,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0588",
+    "clean_name": "cabai keriting",
+    "display_name": "Cabai Keriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0589",
+    "clean_name": "tempe sesuai selera",
+    "display_name": "Tempe Sesuai Selera",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0590",
+    "clean_name": "jae",
+    "display_name": "Jae",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0591",
+    "clean_name": "btng serai",
+    "display_name": "Btng Serai",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0,
+      0.2,
+      0.1,
+      0,
+      0,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0592",
+    "clean_name": "trasi",
+    "display_name": "Trasi",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0593",
+    "clean_name": "sesuai selera air secukupny",
+    "display_name": "Sesuai Selera Air Secukupny",
+    "food_group": "Beverages",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0594",
+    "clean_name": "secukupny gula merah",
+    "display_name": "Secukupny Gula Merah",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0.9,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0595",
+    "clean_name": "garam bila perlu",
+    "display_name": "Garam Bila Perlu",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0596",
+    "clean_name": "bahan",
+    "display_name": "Bahan",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0597",
+    "clean_name": "bahan tumisan ayam",
+    "display_name": "Bahan Tumisan Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0598",
+    "clean_name": "kaldu ayam",
+    "display_name": "Kaldu Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0599",
+    "clean_name": "bahan minyak ayam",
+    "display_name": "Bahan Minyak Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0600",
+    "clean_name": "secukuonya kulit ayam",
+    "display_name": "Secukuonya Kulit Ayam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0601",
+    "clean_name": "bawang putih lalu",
+    "display_name": "Bawang Putih Lalu",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.2,
+      0.3,
+      0.1,
+      0.9
+    ]
+  },
+  {
+    "ingredient_id": "ING-0602",
+    "clean_name": "bahan kuah mie",
+    "display_name": "Bahan Kuah Mie",
+    "food_group": "Grains",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0603",
+    "clean_name": "tempe mendoan",
+    "display_name": "Tempe Mendoan",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0604",
+    "clean_name": "garam penyedap",
+    "display_name": "Garam Penyedap",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0605",
+    "clean_name": "tempe busuk",
+    "display_name": "Tempe Busuk",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0606",
+    "clean_name": "sejimpit vetsin",
+    "display_name": "Sejimpit Vetsin",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0607",
+    "clean_name": "sejimpit gula",
+    "display_name": "Sejimpit Gula",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0608",
+    "clean_name": "helai daun ketumbar",
+    "display_name": "Helai Daun Ketumbar",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0,
+      0.8
+    ]
+  },
+  {
+    "ingredient_id": "ING-0609",
+    "clean_name": "ikan patin",
+    "display_name": "Ikan Patin",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.3,
+      0.7,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0610",
+    "clean_name": "jeruk nipis lemon",
+    "display_name": "Jeruk Nipis Lemon",
+    "food_group": "Fruits",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.9,
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  {
+    "ingredient_id": "ING-0611",
+    "clean_name": "tapioka",
+    "display_name": "Tapioka",
+    "food_group": "Other Ingredients",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ingredient_id": "ING-0612",
+    "clean_name": "daun kucai",
+    "display_name": "Daun Kucai",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0613",
+    "clean_name": "kacang koro",
+    "display_name": "Kacang Koro",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.2,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0614",
+    "clean_name": "tempe kacang",
+    "display_name": "Tempe Kacang",
+    "food_group": "Legumes",
+    "flavor_vector": [
+      0,
+      0,
+      0,
+      0.3,
+      0.6,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0615",
+    "clean_name": "santan instan",
+    "display_name": "Santan Instan",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0616",
+    "clean_name": "cabai kriting",
+    "display_name": "Cabai Kriting",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0617",
+    "clean_name": "buang cabe",
+    "display_name": "Buang Cabe",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0.05,
+      0.15,
+      0.1,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0618",
+    "clean_name": "g daging sapi",
+    "display_name": "G Daging Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0619",
+    "clean_name": "santan kelapa",
+    "display_name": "Santan Kelapa",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0620",
+    "clean_name": "sesuai selera daging kambing",
+    "display_name": "Sesuai Selera Daging Kambing",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.1,
+      0.75,
+      0,
+      0.3
+    ]
+  },
+  {
+    "ingredient_id": "ING-0621",
+    "clean_name": "gayung santan kelapa",
+    "display_name": "Gayung Santan Kelapa",
+    "food_group": "Fats and Oils",
+    "flavor_vector": [
+      0.2,
+      0,
+      0,
+      0,
+      0.1,
+      0,
+      0.5
+    ]
+  },
+  {
+    "ingredient_id": "ING-0622",
+    "clean_name": "bonggol daun bawang",
+    "display_name": "Bonggol Daun Bawang",
+    "food_group": "Vegetables",
+    "flavor_vector": [
+      0.1,
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0.75
+    ]
+  },
+  {
+    "ingredient_id": "ING-0623",
+    "clean_name": "daging sapi has dalam",
+    "display_name": "Daging Sapi Has Dalam",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0,
+      0.8,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0624",
+    "clean_name": "kaldu sapi rebusan",
+    "display_name": "Kaldu Sapi Rebusan",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.5,
+      0,
+      0,
+      0.85,
+      0,
+      0.2
+    ]
+  },
+  {
+    "ingredient_id": "ING-0625",
+    "clean_name": "bubuk jinten",
+    "display_name": "Bubuk Jinten",
+    "food_group": "Seasonings and Spices",
+    "flavor_vector": [
+      0,
+      0.1,
+      0,
+      0.2,
+      0.1,
+      0.1,
+      0.85
+    ]
+  },
+  {
+    "ingredient_id": "ING-0626",
+    "clean_name": "penyedap rasa sapi",
+    "display_name": "Penyedap Rasa Sapi",
+    "food_group": "Meat",
+    "flavor_vector": [
+      0,
+      0.4,
+      0,
+      0,
+      1,
+      0,
+      0.1
+    ]
+  }
+]

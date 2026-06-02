@@ -1,0 +1,23 @@
+[
+  {
+    "username": "Admin Youri",
+    "email": "admin@youri.com",
+    "password_hash": "Admin123",
+    "role": "admin",
+    "gamification": { "level": 15, "current_xp": 100, "next_exp": 167504 }
+  },
+  {
+    "username": "Miika",
+    "email": "miika@gmail.com",
+    "password_hash": "User123#",
+    "role": "user",
+    "gamification": { "level": 1, "current_xp": 0 }
+  },
+  {
+    "username": "Mio",
+    "email": "mio@gmail.com",
+    "password_hash": "User123#",
+    "role": "user",
+    "gamification": { "level": 1, "current_xp": 0 }
+  }
+]

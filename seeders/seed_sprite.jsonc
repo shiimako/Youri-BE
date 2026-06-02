@@ -1,0 +1,15 @@
+[
+  {
+    "package_id": "pkg_001",
+    "package_name": "Regular Youri",
+    "unlock_at_level": 1,
+    "assets": { } 
+    // upload manual pada sistem, untuk seed gambar bisa akses pada : bit.ly/Youri-Sprite-Seed
+  },
+  {
+    "package_id": "pkg_002",
+    "package_name": "Summer Youri",
+    "unlock_at_level": 7,
+    "assets": { }
+  }
+]
