@@ -277,7 +277,7 @@ const cookingController = {
       const taskId = req.params.task_id;
       const userId = req.user.id;
       const mlServiceUrl =
-        process.env.ML_SERVICE_URL || "http://localhost:8000";
+        process.env.INTERNAL_AI_SERVICE_URL || "http://localhost:8000";
 
       let mlResponse;
       try {
