@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const cookingController = require("../controllers/cookingController");
+const cookingController = require("../controllers/CookingController");
 const recipeController = require("../controllers/RecipeController");
 const authGuard = require("../middleware/authGuard");
 
