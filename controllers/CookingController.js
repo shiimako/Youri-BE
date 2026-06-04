@@ -88,7 +88,7 @@ const cookingController = {
           payload,
           {
             headers: {
-              "x-api-key": process.env.INTERNAL_AI_API_KEY,
+              "x-internal-api-key": process.env.INTERNAL_AI_API_KEY,
               "Content-Type": "application/json",
             },
           },
@@ -228,7 +228,7 @@ const cookingController = {
         // Fire and forget mechanism
         axios
           .post(`${mlServiceUrl}/ai/cooking/ai-substitution`, aiPayload, {
-            headers: { "x-api-key": process.env.INTERNAL_AI_API_KEY },
+            headers: { "x-internal-api-key": process.env.INTERNAL_AI_API_KEY },
           })
           .catch((err) => {
             console.error(
@@ -285,7 +285,7 @@ const cookingController = {
           `${mlServiceUrl}/ai/cooking/ai-result/${taskId}`,
           {
             headers: {
-              "x-api-key": process.env.INTERNAL_AI_API_KEY,
+              "x-internal-api-key": process.env.INTERNAL_AI_API_KEY,
               Accept: "application/json",
             },
           },
