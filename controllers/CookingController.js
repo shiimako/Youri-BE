@@ -59,88 +59,167 @@ const cookingController = {
           .status(404)
           .json({ message: "Format ID resep tidak valid", errors: null });
       }
-      res
-        .status(500)
-        .json({
-          message: "Terjadi kesalahan internal saat memuat detail resep",
-        });
+      res.status(500).json({
+        message: "Terjadi kesalahan internal saat memuat detail resep",
+      });
     }
   },
 
   // ==========================================
-  // MATCH RECIPES VIA AI SERVICE
+  // MATCH RECIPES (STANDARD FILTER & AI SERVICE)
   // ==========================================
   matchRecipe: async (req, res) => {
     try {
       const payload = req.body;
+      const ingredients = payload.ingredients || []; 
 
-      if (!payload.ingredients || !Array.isArray(payload.ingredients)) {
-        return res.status(400).json({ message: "Payload bahan tidak valid" });
+      // =======================================================
+      // JALUR 1: MODE FILTER STANDAR (Tanpa Bahan)
+      // =======================================================
+      
+      if (ingredients.length === 0) {
+        const query = { status: "published" };
+
+        if (payload.recipe_name) {
+          query.title = new RegExp(payload.recipe_name, "i");
+        }
+        if (payload.categories && payload.categories.length > 0) {
+          query.categories = { $in: payload.categories }; 
+        }
+        if (payload.time && payload.time.time) {
+          query.cook_time_mins = { $lte: payload.time.time };
+        }
+        if (payload.exclude_ingredients && payload.exclude_ingredients.length > 0) {
+          const avoidRegexes = payload.exclude_ingredients.map(
+            (ing) => new RegExp(ing.name, "i")
+          );
+          query["ingredients.name"] = { $nin: avoidRegexes };
+        }
+
+        const recipesFromDb = await Recipe.find(query)
+          .select("_id title image_url cook_time_mins")
+          .lean();
+
+        const formattedRecipes = recipesFromDb.map((r) => ({
+          id: r._id,
+          name: r.title,
+          image_url: r.image_url,
+          match_percentage: 100, 
+        }));
+
+        return res.status(200).json({
+          message: "Pencarian resep standar berhasil",
+          data: formattedRecipes,
+        });
       }
 
-      const mlServiceUrl =
-        process.env.INTERNAL_AI_SERVICE_URL || "http://localhost:8000";
+      // =======================================================
+      // JALUR 2: MODE AI DENGAN POST-FILTERING
+      // =======================================================
+      const mlServiceUrl = process.env.INTERNAL_AI_SERVICE_URL || "http://localhost:8000";
       let mlResponse;
+
+      if (payload.recipe_id) {
+        const dbRecipeForCompare = await Recipe.findById(payload.recipe_id).select("title").lean();
+        
+        if (dbRecipeForCompare) {
+          payload.recipe_id = dbRecipeForCompare.title.toLowerCase().replace(/\s+/g, "-");
+        } else {
+          delete payload.recipe_id;
+        }
+      }
+
+      const aiMatchPayload = {
+        ingredients: payload.ingredients.map(ing => ({
+          name: ing.name,
+          is_valid: ing.is_valid !== undefined ? ing.is_valid : true
+        })),
+      };
+
+      if (payload.recipe_id) {
+        aiMatchPayload.recipe_id = payload.recipe_id;
+      }
 
       try {
         mlResponse = await axios.post(
           `${mlServiceUrl}/v1/ai/cooking/match`,
-          payload,
+          aiMatchPayload, 
           {
             headers: {
               "x-internal-api-key": process.env.INTERNAL_AI_API_KEY,
               "Content-Type": "application/json",
             },
-          },
+          }
         );
       } catch (aiError) {
-        console.error(
-          "[matchRecipe] AI Service Error:",
-          aiError.response?.data || aiError.message,
-        );
-        return res.status(503).json({
-          message: "Layanan AI sedang tidak tersedia atau gagal memproses data",
-        });
+        console.error("[matchRecipe] AI Service Error:", aiError.response?.data || aiError.message);
+        return res.status(503).json({ message: "Layanan AI sedang tidak tersedia" });
       }
 
-      const matchData = mlResponse.data.data;
+      const matchData = mlResponse.data?.data || [];
 
-      if (!matchData || matchData.length === 0) {
+      if (matchData.length === 0) {
         return res.status(200).json({
-          message: "Tidak ditemukan resep yang cocok",
+          message: "Tidak ditemukan resep yang cocok dari AI",
           data: [],
         });
       }
 
-      const recipeIds = matchData.map((item) => item.recipe_id);
+      const recipePatterns = matchData.map(
+        (item) => new RegExp(`^${item.recipe_id.replace(/-/g, " ")}$`, "i")
+      );
 
-      const recipesFromDb = await Recipe.find({ _id: { $in: recipeIds } })
+      // Gunakan $and agar MongoDB menjalankan SEMUA syarat secara bersamaan
+      const aiQuery = {
+        $and: [
+          { $or: recipePatterns.map((pattern) => ({ title: pattern })) },
+          { status: "published" }
+        ]
+      };
+
+      if (payload.recipe_name) {
+        aiQuery.$and.push({ title: new RegExp(payload.recipe_name, "i") });
+      }
+
+      if (payload.categories && payload.categories.length > 0) {
+        aiQuery.$and.push({ categories: { $in: payload.categories } });
+      }
+
+      if (payload.time && payload.time.time) {
+        aiQuery.$and.push({ cook_time_mins: { $lte: payload.time.time } });
+      }
+
+      if (payload.exclude_ingredients && payload.exclude_ingredients.length > 0) {
+        const avoidRegexes = payload.exclude_ingredients.map((ing) => new RegExp(ing.name, "i"));
+        aiQuery.$and.push({ "ingredients.name": { $nin: avoidRegexes } });
+      }
+
+      const recipesFromDb = await Recipe.find(aiQuery)
         .select("_id title image_url cook_time_mins")
         .lean();
 
       const finalMatchedRecipes = matchData
         .map((aiItem) => {
-          const dbRecipe = recipesFromDb.find(
-            (r) => r._id.toString() === aiItem.recipe_id,
-          );
+          const pattern = new RegExp(`^${aiItem.recipe_id.replace(/-/g, " ")}$`, "i");
+          const dbRecipe = recipesFromDb.find((r) => pattern.test(r.title));
+          
           return {
-            id: aiItem.recipe_id,
+            id: dbRecipe ? dbRecipe._id : aiItem.recipe_id, 
             name: dbRecipe ? dbRecipe.title : "Resep Tidak Dikenal",
             image_url: dbRecipe ? dbRecipe.image_url : null,
             match_percentage: aiItem.match_percentage,
           };
         })
+        .filter(recipe => recipe.name !== "Resep Tidak Dikenal") 
         .sort((a, b) => b.match_percentage - a.match_percentage);
 
       return res.status(200).json({
-        message: "Resep berhasil dicocokkan",
+        message: "Resep berhasil dicocokkan via AI dan disaring",
         data: finalMatchedRecipes,
       });
     } catch (error) {
       console.error("[matchRecipe] Internal Error:", error);
-      res
-        .status(500)
-        .json({ message: "Terjadi kesalahan internal saat mencocokkan resep" });
+      res.status(500).json({ message: "Terjadi kesalahan internal saat mencocokkan resep" });
     }
   },
 
@@ -261,11 +340,9 @@ const cookingController = {
       });
     } catch (error) {
       console.error("[prepareCooking] Error:", error);
-      res
-        .status(500)
-        .json({
-          message: "Terjadi kesalahan internal saat menyiapkan masakan",
-        });
+      res.status(500).json({
+        message: "Terjadi kesalahan internal saat menyiapkan masakan",
+      });
     }
   },
 
@@ -292,12 +369,10 @@ const cookingController = {
         );
       } catch (aiError) {
         if (aiError.response?.status === 404) {
-          return res
-            .status(404)
-            .json({
-              message: "Tugas AI tidak ditemukan atau kedaluwarsa",
-              data: null,
-            });
+          return res.status(404).json({
+            message: "Tugas AI tidak ditemukan atau kedaluwarsa",
+            data: null,
+          });
         }
         console.error("[getAiTaskResult] API Error:", aiError.message);
         return res.status(503).json({ message: "Layanan AI tidak tersedia" });
@@ -639,12 +714,9 @@ const cookingController = {
       });
     } catch (error) {
       console.error("[finishCooking] Error:", error);
-      res
-        .status(500)
-        .json({
-          message:
-            "Terjadi kesalahan internal saat menyelesaikan proses masakan",
-        });
+      res.status(500).json({
+        message: "Terjadi kesalahan internal saat menyelesaikan proses masakan",
+      });
     }
   },
 };
