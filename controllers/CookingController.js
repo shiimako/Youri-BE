@@ -84,7 +84,7 @@ const cookingController = {
 
       try {
         mlResponse = await axios.post(
-          `${mlServiceUrl}/ai/cooking/match`,
+          `${mlServiceUrl}/v1/ai/cooking/match`,
           payload,
           {
             headers: {
@@ -227,7 +227,7 @@ const cookingController = {
 
         // Fire and forget mechanism
         axios
-          .post(`${mlServiceUrl}/ai/cooking/ai-substitution`, aiPayload, {
+          .post(`${mlServiceUrl}/v1/ai/cooking/ai-substitution`, aiPayload, {
             headers: { "x-internal-api-key": process.env.INTERNAL_AI_API_KEY },
           })
           .catch((err) => {
@@ -282,7 +282,7 @@ const cookingController = {
       let mlResponse;
       try {
         mlResponse = await axios.get(
-          `${mlServiceUrl}/ai/cooking/ai-result/${taskId}`,
+          `${mlServiceUrl}/v1/ai/cooking/ai-result/${taskId}`,
           {
             headers: {
               "x-internal-api-key": process.env.INTERNAL_AI_API_KEY,
