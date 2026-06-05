@@ -105,6 +105,7 @@ const cookingController = {
           name: r.title,
           image_url: r.image_url,
           match_percentage: 100, 
+          with_ingredients: false
         }));
 
         return res.status(200).json({
@@ -208,6 +209,7 @@ const cookingController = {
             name: dbRecipe ? dbRecipe.title : "Resep Tidak Dikenal",
             image_url: dbRecipe ? dbRecipe.image_url : null,
             match_percentage: aiItem.match_percentage,
+            with_ingredients: true
           };
         })
         .filter(recipe => recipe.name !== "Resep Tidak Dikenal") 
