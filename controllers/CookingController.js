@@ -76,7 +76,7 @@ const cookingController = {
       // =======================================================
       // JALUR 1: MODE FILTER STANDAR (Tanpa Bahan)
       // =======================================================
-      
+
       if (ingredients.length === 0) {
         const query = { status: "published" };
 
@@ -229,17 +229,61 @@ const cookingController = {
   prepareCooking: async (req, res) => {
     try {
       const userId = req.user.id;
-      const { recipe_id, ingredients } = req.body;
+      // Berikan nilai default array kosong jika ingredients tidak dikirim
+      const { recipe_id, ingredients = [] } = req.body; 
 
       const recipe = await Recipe.findById(recipe_id).lean();
       if (!recipe) {
         return res.status(404).json({ message: "Resep tidak ditemukan" });
       }
 
+      // 1. Ambil data Kosmetik/Sprite User
+      const user = await User.findById(userId).lean();
+      let thinkingSprite = "https://res.cloudinary.com/cloud_senpai/image/upload/v1/sprites/default_thinking.png";
+      let happySprite = "https://res.cloudinary.com/cloud_senpai/image/upload/v1/sprites/default_happy.png"; 
+
+      if (user?.gamification?.equipped_sprite_id) {
+        const spritePkg = await SpritePackage.findOne({
+          package_id: user.gamification.equipped_sprite_id,
+        }).lean();
+        if (spritePkg?.assets?.thinking) thinkingSprite = spritePkg.assets.thinking;
+        if (spritePkg?.assets?.happy) happySprite = spritePkg.assets.happy;
+      }
+
+      // =======================================================
+      // JALUR 1: BYPASS AI (USER TIDAK INPUT BAHAN)
+      // =======================================================
+      if (ingredients.length === 0) {
+        return res.status(200).json({
+          message: "Persiapan memasak berhasil dimuat (Mode Standar)",
+          data: {
+            ai_task_id: null, // AI tidak dipanggil
+            recipe: {
+              id: recipe._id,
+              name: recipe.title,
+              match_percentage: req.body.match_percentage || 100,
+              description: recipe.description,
+              cook_time_mins: recipe.cook_time_mins,
+              image_url: recipe.image_url,
+              steps: recipe.steps || [],
+              ingredients: recipe.ingredients.map((i) => `${i.qty} ${i.name}`),
+            },
+            missing_ingredients: [], // Kosongkan karena tidak ada bahan untuk ditukar
+            character: {
+              sprite: happySprite, // Karakter senang karena tidak perlu mikir keras
+              dialog: "Mari kita mulai memasak! Resep sudah siap.",
+            },
+          },
+        });
+      }
+
+      // =======================================================
+      // JALUR 2: MODE SUBSTITUSI AI (USER MEMBAWA BAHAN)
+      // =======================================================
       const missingIngredients = [];
       const surplusIngredients = [];
 
-      // Determine Missing Ingredients
+      // A. Tentukan Bahan yang Kurang (Missing)
       recipe.ingredients.forEach((rIng) => {
         const isFound = ingredients.find(
           (uIng) =>
@@ -248,14 +292,15 @@ const cookingController = {
         );
         if (!isFound) {
           missingIngredients.push({
-            id: rIng.ingredient_id,
+            id: rIng.ingredient_id || "unknown",
             name: rIng.name,
             is_core: rIng.is_core,
+            is_valid: true // Wajib ada agar AI tidak error 400!
           });
         }
       });
 
-      // Determine Surplus Ingredients
+      // B. Tentukan Bahan Sisa/Surplus
       ingredients.forEach((uIng) => {
         const isNeeded = recipe.ingredients.find(
           (rIng) =>
@@ -264,56 +309,42 @@ const cookingController = {
         );
         if (!isNeeded) {
           surplusIngredients.push({
-            id: uIng.ingredient_id,
+            id: uIng.ingredient_id || "unknown",
             name: uIng.name,
-            is_valid: uIng.is_valid,
+            is_valid: uIng.is_valid !== undefined ? uIng.is_valid : true, // Wajib dikirim
           });
         }
       });
 
-      // Retrieve User Sprite Data
-      const user = await User.findById(userId).lean();
-      let thinkingSprite =
-        "https://res.cloudinary.com/cloud_senpai/image/upload/v1/sprites/default_thinking.png";
-
-      if (user?.gamification?.equipped_sprite_id) {
-        const spritePkg = await SpritePackage.findOne({
-          package_id: user.gamification.equipped_sprite_id,
-        }).lean();
-        if (spritePkg?.assets?.thinking) {
-          thinkingSprite = spritePkg.assets.thinking;
-        }
-      }
-
       let aiTaskId = null;
       let dialogText = "Semua bahan lengkap. Selamat memasak!";
+      let currentSprite = happySprite;
 
-      // Async AI Trigger
+      // C. Trigger AI Background Process
       if (missingIngredients.length > 0) {
         aiTaskId = `task_ai_${crypto.randomBytes(8).toString("hex")}`;
-        dialogText =
-          "Menganalisis alternatif bahan yang kurang, mohon tunggu sebentar.";
+        dialogText = "Menganalisis alternatif bahan yang kurang, mohon tunggu sebentar.";
+        currentSprite = thinkingSprite;
+
+        // Translasi ObjectID ke format Slug (misal: "pepes-tahu-jamur-tiram")
+        const slugRecipeId = recipe.title.toLowerCase().replace(/\s+/g, "-");
 
         const aiPayload = {
           task_id: aiTaskId,
-          recipe_id: recipe_id,
+          recipe_id: slugRecipeId, // Gunakan Slug yang sudah ditranslasi
           missing_ingredients: missingIngredients,
           surplus_ingredients: surplusIngredients,
         };
 
-        const mlServiceUrl =
-          process.env.INTERNAL_AI_SERVICE_URL || "http://localhost:8000";
+        const mlServiceUrl = process.env.INTERNAL_AI_SERVICE_URL || "http://localhost:8000";
 
-        // Fire and forget mechanism
+        // Tembak API AI (Fire and Forget)
         axios
           .post(`${mlServiceUrl}/v1/ai/cooking/ai-substitution`, aiPayload, {
             headers: { "x-internal-api-key": process.env.INTERNAL_AI_API_KEY },
           })
           .catch((err) => {
-            console.error(
-              `[AI Sub Error] Task ${aiTaskId} failed:`,
-              err.message,
-            );
+            console.error(`[AI Sub Error] Task ${aiTaskId} failed:`, err.message);
           });
       }
 
@@ -333,16 +364,14 @@ const cookingController = {
           },
           missing_ingredients: missingIngredients,
           character: {
-            sprite: thinkingSprite,
+            sprite: currentSprite,
             dialog: dialogText,
           },
         },
       });
     } catch (error) {
       console.error("[prepareCooking] Error:", error);
-      res.status(500).json({
-        message: "Terjadi kesalahan internal saat menyiapkan masakan",
-      });
+      res.status(500).json({ message: "Terjadi kesalahan internal saat menyiapkan masakan" });
     }
   },
 
