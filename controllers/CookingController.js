@@ -409,6 +409,18 @@ const cookingController = {
 
       const taskData = mlResponse.data.data;
 
+      if (taskData.status === "failed") {
+        // AI Server Crash! Kita manipulasi seolah completed tapi dengan hasil gagal
+        taskData.status = "completed";
+        taskData.result = {
+          character: {
+            status: "fail", // Ini akan memanggil gambar Youri nangis/sedih
+            dialog: "Aduh, maaf Chef! Otakku tiba-tiba kelebihan beban (AI Error). Ayo coba lanjut masak pakai insting hebatmu saja ya!",
+          },
+          substitutions_mapping: null,
+        };
+      }
+
       let updatedSpriteUrl = null;
       if (taskData.status === "completed" && taskData.result) {
         const user = await User.findById(userId)
