@@ -257,11 +257,11 @@ const authController = {
       <p>Kode ini berlaku selama 15 menit. Jika Anda tidak meminta pemulihan sandi, abaikan email ini.</p>
     `,
       });
-      console.log("Email berhasil dikirim via Resend!");
+      console.log(`Email berhasil dikirim via Resend ke ${user.email}!`);
 
       return res
         .status(200)
-        .json({ message: "Kode OTP pemulihan telah dikirim ke email" });
+        .json({ message: `Kode OTP pemulihan telah dikirim ke email ${user.email}` });
     } catch (error) {
       console.error("[Request Reset Password Error]:", error);
       res
