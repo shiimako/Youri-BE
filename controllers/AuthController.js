@@ -237,7 +237,8 @@ const authController = {
         auth: {
           user: process.env.EMAIL_ADMIN,
           pass: process.env.EMAIL_ADMIN_PASS
-        }
+        },
+        family: 4
       });
 
       const mailOptions = {

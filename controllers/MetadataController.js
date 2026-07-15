@@ -22,7 +22,7 @@ const coreProcessAI = async () => {
 
   // 2. Setup Gemini AI Model
   const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash-latest",
+    model: "gemini-2.5-flash",
     generationConfig: { responseMimeType: "application/json" },
   });
 
