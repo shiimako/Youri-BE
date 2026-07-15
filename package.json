@@ -23,7 +23,8 @@
     "mongoose": "^9.6.2",
     "node-cron": "^4.2.1",
     "nodemailer": "^8.0.10",
-    "redis": "^5.12.1"
+    "redis": "^5.12.1",
+    "resend": "^6.17.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
