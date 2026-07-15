@@ -246,7 +246,7 @@ const authController = {
       await user.save();
 
       // Email Configuration
-      await resend.emails.send({
+      const { data, error } = await resend.emails.send({
         from: "Youri Support <onboarding@resend.dev>",
         to: user.email,
         subject: "Kode Pemulihan Sandi",
@@ -257,6 +257,9 @@ const authController = {
       <p>Kode ini berlaku selama 15 menit. Jika Anda tidak meminta pemulihan sandi, abaikan email ini.</p>
     `,
       });
+
+      console.log("data:", data);
+      console.log("error:", error);
       console.log(`Email berhasil dikirim via Resend ke ${user.email}!`);
 
       return res
