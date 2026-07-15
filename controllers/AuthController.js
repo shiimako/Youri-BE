@@ -248,7 +248,7 @@ const authController = {
       // Email Configuration
       const { data, error } = await resend.emails.send({
         from: "Youri Support <onboarding@resend.dev>",
-        to: user.email,
+        to: "youri.capstone.dumy@gmail.com",
         subject: "Kode Pemulihan Sandi",
         html: `
       <h3>Halo, ${user.username}</h3>
@@ -258,13 +258,20 @@ const authController = {
     `,
       });
 
-      console.log("data:", data);
-      console.log("error:", error);
+      if (error) {
+        console.error(error);
+
+        return res.status(error.statusCode || 500).json({
+          message: error.message,
+        });
+      }
       console.log(`Email berhasil dikirim via Resend ke ${user.email}!`);
 
       return res
         .status(200)
-        .json({ message: `Kode OTP pemulihan telah dikirim ke email ${user.email}` });
+        .json({
+          message: `Kode OTP pemulihan telah dikirim ke email ${user.email}`,
+        });
     } catch (error) {
       console.error("[Request Reset Password Error]:", error);
       res
@@ -329,11 +336,9 @@ const authController = {
       user.reset_otp_expires = null;
       await user.save();
 
-      return res
-        .status(200)
-        .json({
-          message: "Kata sandi berhasil diperbarui, silakan login kembali",
-        });
+      return res.status(200).json({
+        message: "Kata sandi berhasil diperbarui, silakan login kembali",
+      });
     } catch (error) {
       console.error("[Reset Password Error]:", error);
       res.status(500).json({ message: "Gagal mengatur ulang kata sandi" });
