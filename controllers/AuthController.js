@@ -248,7 +248,7 @@ const authController = {
       // Email Configuration
       const { data, error } = await resend.emails.send({
         from: "Youri Support <onboarding@resend.dev>",
-        to: "youri.capstone.dumy@gmail.com",
+        to: "youri.capstone.dummy@gmail.com",
         subject: "Kode Pemulihan Sandi",
         html: `
       <h3>Halo, ${user.username}</h3>
@@ -259,10 +259,10 @@ const authController = {
       });
 
       if (error) {
-        console.error(error);
+        console.log(error);
 
         return res.status(error.statusCode || 500).json({
-          message: error.message,
+          message: "Terjadi Error saat mengirim email OTP pemulihan",
         });
       }
       console.log(`Email berhasil dikirim via Resend ke ${user.email}!`);
